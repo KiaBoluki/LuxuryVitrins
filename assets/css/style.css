@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  font-family: "Noto Sans Arabic", sans-serif;
+}
+
+body {
+  background-color: #fafafa;
+  color: #fafafa !important;
+  direction: rtl;
+  scroll-behavior: smooth;
+}
+
+#about,
+#contact {
+  margin: 0;
+  height: 100vh;
+  color: #fafafa;
+  padding: 6rem 0 !important;
+}
+
+#about .col-md-6,
+#contact .col-md-6 {
+  padding: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#about .col-md-6 img,
+#contact .col-md-6 img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  border-radius: 10px;
+}
+
+#about {
+  background-color: #22577E;
+}
+
+#contact {
+  background-color: #3C7FA9;
+}
+
+#contact form {
+  display: block;
+  width: 100%;
+  padding: 2rem;
+}
+
+#contact form label {
+  margin-bottom: 0.5rem;
+}
+
+#contact form input {
+  margin-bottom: 2rem;
+}
+
+#contact form button {
+  margin-top: 2rem;
+  display: block;
+  width: 100%;
+  color: #fafafa;
+  border: none;
+  padding: 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+footer {
+  width: 100%;
+  padding: 6rem 0 !important;
+  background-color: #95D1CC;
+}
+
+header {
+  height: 5rem;
+  padding: 0 !important;
+  background-color: #80b6ff !important;
+}
+
+header a {
+  color: #fafafa !important;
+}
+
+#carouselId {
+  margin-top: 5rem;
+  height: 95vh !important;
+  overflow: hidden;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  -webkit-box-shadow: 0 5px 10px 1px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 5px 10px 1px rgba(0, 0, 0, 0.1);
+}
+
+.social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.social a {
+  font-size: 1.5rem;
+  margin: 0 0.2rem;
+  padding: .5rem;
+}
+
+.social a .fab:hover {
+  color: #4096ff !important;
+}
+
+a .fab {
+  color: #fafafa !important;
+}
+/*# sourceMappingURL=style.css.map */
